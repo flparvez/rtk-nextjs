@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux'
 
 
 const Page = () => {
-    const userData = useSelector((data) => data.users)
+    const userData = useSelector((data) => data.userData.users)
     const dispatch = useDispatch()
 
     return (
